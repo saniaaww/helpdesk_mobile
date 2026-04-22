@@ -1,19 +1,16 @@
 class DataDummy {
-  // 1. Tambahkan ini agar Login & Register bisa berfungsi
   static List<Map<String, String>> users = [
     {"email": "admin@mail.com", "pass": "admin123", "role": "admin"},
     {"email": "helpdesk@mail.com", "pass": "help123", "role": "helpdesk"},
     {"email": "user@mail.com", "pass": "user123", "role": "user"},
   ];
 
-  // 2. Daftar Helpdesk untuk fitur Assign Tiket
   static List<String> helpdeskList = [
     "Budi (IT Support)", 
     "Santi (Network Tech)", 
     "Rian (Hardware)"
   ];
 
-  // 3. Daftar Tiket (Data asli darimu)
   static List<Map<String, dynamic>> tickets = [
     {
       "id": "TK-001",
